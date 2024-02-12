@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Electricity Price Explanation
 
 ## Project Overview
@@ -33,6 +32,4 @@ For more information and resources, visit the project's original link: [Electric
 ---
 **Team Members**: Irene Sunny, Wenjing Zhao, Hongyang Ye, Zheng Wan
 =======
-# Ensemble-Learning-Project-G3-T7
-Team report for the course Ensemble Learning
->>>>>>> 0e6c340dd7a2df5fe5b9d5a467eca7a1bb5c3b1e
+
