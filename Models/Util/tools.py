@@ -65,9 +65,9 @@ def metric_train(output, Y):
     return metric 
 
 # Generate submission file
-def submission(X_test, model=None, name=''):
+def submission(X_test, X_test_clean, model=None, name=''):
     Y_test_submission = X_test[['ID']].copy()
-    Y_test_submission['TARGET'] = model.predict(X_test)
+    Y_test_submission['TARGET'] = model.predict(X_test_clean)
     Y_test_submission.to_csv('./Submission/' + name + '.csv', index=False)
 
 
