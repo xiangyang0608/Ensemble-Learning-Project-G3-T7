@@ -8,13 +8,6 @@ This project is an assignment for an ensemble learning course, conducted by a te
 
 The main goal is to create a model that accurately predicts daily price changes in electricity futures contracts for France and Germany. These contracts represent expected future electricity prices over a short-term period (24 hours). The data provided includes daily information such as weather conditions (temperature, rainfall, wind), energy production (changes in commodity prices), and electricity usage (consumption, exchanges between countries, import-export with the rest of Europe). The performance of the model will be evaluated using Spearman's correlation coefficient between the predicted and actual daily price changes on the test dataset.
 
-### Data Description
-
-The provided dataset consists of three CSV files: `X_train` (training inputs), `Y_train` (training outputs), and `X_test` (test inputs), with the following structure:
-
-- **Input Datasets (`X_train` and `X_test`)**: Represents the same explanatory variables over two different time periods, comprising 35 columns, including unique row identifiers (ID), day and country identifiers (DAY_ID, COUNTRY), daily commodity price variations, weather measures, energy production measures, and electricity use metrics.
-- **Output Datasets**: Composed of two columns (ID, TARGET), where `TARGET` is the daily price variation for futures of 24H electricity baseload.
-
 ##  Methodology
 
 ### EDA
@@ -62,5 +55,6 @@ The provided dataset consists of three CSV files: `X_train` (training inputs), `
 For more information and resources, visit the project's original link: [Electricity Price Explanation Challenge](https://challengedata.ens.fr/participants/challenges/97/)
 
 Our highest achievements on the website have reached a public score of 0.4641.
+
 ---
 **Team Members**: Irene Sunny, Wenjing Zhao, Hongyang Ye, Zheng Wan
